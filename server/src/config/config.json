@@ -1,7 +1,7 @@
 {
-    "SiteTitle": "Site Title",
-    "dbUrl": "mongodb+srv://itWebsite:sJCl5a6fxNfsit3l@cluster0.xzapbov.mongodb.net/itwebsite",
-    "role": "SAdmin",
-    "email": "koushik1234@gmail.com",
-    "password": "$2a$10$eDXd1dINC4ceQQRBoRVXUOfhroZJ0kTvX8ZERlTAPOWIY5IeAzDGi"
+  "SiteTitle": "xyz",
+  "dbUrl": "mongodb+srv://indranilintolap:abcd1234@cluster0.4wlkqnj.mongodb.net/?retryWrites=true&w=majority",
+  "role": "SAdmin",
+  "email": "indranil.intolap@gmail.com",
+  "password": "$2a$10$8ZPZVu.YttGkqKwpd7QxKeF7UGeAyeTdRqCXjInINhN4plVmSaaV6"
 }

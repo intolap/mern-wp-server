@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema({
     },
     dbUrl:{
         type: String,
-        require: true
+        default: null,
     },
     role:{
         type: String,

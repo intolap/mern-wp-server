@@ -1,17 +1,19 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema;
+// const Schema = mongoose.Schema;
 const ObjectId = mongoose.Schema.Types.ObjectId
+
 
 const usermetaSchema = new mongoose.Schema({
     userId:{
         type: ObjectId,
         ref: 'ItUsers',
+        required: true,
     },
-    label:{
+    userMetaKey:{
         type: String,
         require: true
     },
-    value:{
+    userMetaValue:{
         type: String,
         require: true
     },

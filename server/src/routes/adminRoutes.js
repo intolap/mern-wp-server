@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { createUser } = require('../controllers/userController/adminController')
+const { createUser,getUser } = require('../controllers/userController/adminController')
 const { config } = require('../middlewares/config')
 
 
@@ -20,7 +20,6 @@ router.get("/test-me", function (req, res) {
 //-------------------------> (When person creat, call this api) <----------------------------------//
 
 router.post("/person/create", createUser)
-
 
 
 
